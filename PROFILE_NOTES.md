@@ -2,25 +2,24 @@
 
 ## Components
 
-- [Skill Icons](https://github.com/tandpfun/skill-icons) renders the grouped technology row from `skillicons.dev`. The selected icon identifiers follow the project's documented endpoint format.
-- [GitHub Readme Activity Graph](https://github.com/Ashutosh00710/github-readme-activity-graph) renders the contribution activity chart for `Jasonrve`.
-- [Shields.io](https://github.com/badges/shields) provides the small, linked focus labels in the hero.
+- [capsule-render](https://github.com/kyechan99/capsule-render): animated wave header and footer.
+- [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg): rotating typing tagline.
+- [Shields.io](https://github.com/badges/shields): hero badges, tech labels, live star counts.
+- [Skill Icons](https://github.com/tandpfun/skill-icons): stack row, light/dark via `<picture>`.
+- [GitHub Readme Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats): contribution streak card, light/dark via `<picture>`.
+- [komarev profile views](https://github.com/antonkomarev/github-profile-views-counter): view counter.
 
-## Dynamic content and dependencies
+## Dependencies
 
-The activity chart and stack icons are served by third-party endpoints. If either is unavailable, the descriptive README content and repository links remain usable. No generated assets or GitHub Actions workflow are required, and no repository secrets are used.
-
-## Theme
-
-The profile uses GitHub-friendly Markdown, restrained blue/cyan/teal accents, and no fixed-width layout. The activity graph has a dark background; replace its query parameters or remove the chart if you prefer a fully theme-adaptive page. The Skill Icons URL supports `theme=light` and `theme=dark` if you later choose to add a `<picture>` element.
+All widgets are third-party endpoints; if one is down the text and links still work. No Actions, no secrets.
+`github-readme-activity-graph.vercel.app` was removed: it returned HTTP 402 as of 2026-09-25.
 
 ## Featured repositories
 
-The README currently features VaultLens and Uptime Kuma Operator. To change this, update the project headings, short descriptions, technology labels, and links in `README.md`. Confirm repository details and URLs before adding metrics or capabilities.
+VaultLens and Uptime Kuma Operator are featured; "More projects" lists repos using their GitHub descriptions.
+Repos without a GitHub description (rancher-mcp, rancher-devops-operator, TerraSec) are left out. Add a description on GitHub, then list them.
 
-## Validation notes
+## Validation
 
-- Profile/repository links point to the public `Jasonrve` account and the two named repositories.
-- No repository metrics, awards, follower counts, or fabricated activity are stated.
-- The layout uses a compact two-column table for the four focus areas; check it at mobile width on GitHub after publishing. GitHub may stack or horizontally scroll tables differently across clients.
-- The activity graph is intentionally the only stats widget to keep the page focused.
+- All image URLs returned HTTP 200 on 2026-09-25.
+- No fabricated metrics: star counts are live Shields badges.
