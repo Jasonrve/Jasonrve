@@ -2,7 +2,7 @@
 
 # Jason van Eeden
 
-### Platform Engineering Â· Cloud Security Â· AI Infrastructure
+### Platform Engineering· Cloud Security· AI Infrastructure
 
 Building secure developer platforms, Kubernetes automation, secrets tooling, and practical AI infrastructure.
 
