@@ -1,6 +1,9 @@
 <div align="center">
 
-<img width="100%" alt="Jason van Eeden: Platform Engineering, Cloud Security, AI Infrastructure" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0B5FFF,50:326CE5,100:00B8A9&text=Jason%20van%20Eeden&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=Platform%20Engineering%20%C2%B7%20Cloud%20Security%20%C2%B7%20AI%20Infrastructure&descAlignY=58&descSize=18&animation=fadeIn" />
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/profile-banner-mobile.svg" />
+  <img width="100%" alt="Jason van Eeden: Platform Engineering, Cloud Security, AI Infrastructure" src="assets/profile-banner.svg" />
+</picture>
 
 <a href="https://github.com/Jasonrve">
   <img alt="Building secure developer platforms, Kubernetes operators, Vault tooling and AI infrastructure" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=800&color=00B8A9&center=true&vCenter=true&width=620&lines=Building+secure+developer+platforms;Kubernetes+operators+%26+GitOps+automation;HashiCorp+Vault+tooling;MCP+servers+%26+AI+infrastructure" />
@@ -15,6 +18,8 @@
 ![Profile views](https://komarev.com/ghpvc/?username=Jasonrve&color=0B5FFF&style=flat-square&label=profile+views)
 
 </div>
+
+I build practical tools at the intersection of platform engineering, cloud security, and AI infrastructure. I care about secure defaults, repeatable operations, and making complex systems easier for other engineers to use.
 
 ## 🛠️ What I Build
 
@@ -68,22 +73,29 @@
   </tr>
 </table>
 
-**More projects**
+**More from my work**
 
 - [**bifrost-budget**](https://github.com/Jasonrve/bifrost-budget): read-only MCP server for Bifrost budget and quota snapshots
-- [**renovate-config-validator**](https://github.com/Jasonrve/renovate-config-validator): validate Renovate config in GitHub Actions
-- [**helloworld-demo-mcp**](https://github.com/Jasonrve/helloworld-demo-mcp): a hello-world MCP server over streamable HTTP
 
 ## 🧰 Engineering Stack
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=aws,kubernetes,docker,helm,terraform,argo,githubactions,vault,linux,prometheus,grafana,ts,cs,py,react,postgres&perline=8&theme=light" />
-    <img alt="AWS, Kubernetes, Docker, Helm, Terraform, Argo CD, GitHub Actions, Vault, Linux, Prometheus, Grafana, TypeScript, C#, Python, React, PostgreSQL" src="https://skillicons.dev/icons?i=aws,kubernetes,docker,helm,terraform,argo,githubactions,vault,linux,prometheus,grafana,ts,cs,py,react,postgres&perline=8&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/engineering-stack-light.svg" />
+    <img alt="AWS, Kubernetes, Docker, Terraform, GitHub Actions, Linux, Git, Bash, Prometheus, Grafana, TypeScript, C#, Python, React, PostgreSQL, Node.js, Express, Tailwind CSS, and .NET" src="assets/engineering-stack-dark.svg" />
   </picture>
 </p>
 
-**AI systems:** MCP · LLM gateways · model routing · agent infrastructure · retrieval and RAG
+<p align="center">
+  <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" alt="Helm" />
+  <img src="https://img.shields.io/badge/Argo%20CD-EF7B4D?style=flat-square&logo=argo&logoColor=white" alt="Argo CD" />
+  <img src="https://img.shields.io/badge/HashiCorp%20Vault-FFEC6E?style=flat-square&logo=vault&logoColor=000" alt="HashiCorp Vault" />
+</p>
+
+- **Cloud & platform:** AWS and EKS, Kubernetes operators, Docker, Helm, Terraform, Argo CD, GitOps, Linux, and GitHub Actions.
+- **Security & operations:** HashiCorp Vault, secrets management, identity and policy, Prometheus, and Grafana.
+- **Languages & applications:** TypeScript, React, Node.js, Express, Tailwind CSS, C#/.NET, Python, and PostgreSQL.
+- **AI systems:** MCP servers, LLM gateways, model routing, agent infrastructure, retrieval, and RAG.
 
 ## 🔭 Currently Building
 

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Jason van Eeden</title>
+  <desc id="desc">Platform engineering, cloud security, and AI infrastructure</desc>
+  <style>
+    #network { transform-box: fill-box; transform-origin: center; animation: drift 12s ease-in-out infinite; }
+    #halo { transform-box: fill-box; transform-origin: center; animation: breathe 6s ease-in-out infinite; }
+    @keyframes drift { 0%, 100% { transform: translate(0, 0) rotate(0deg); } 50% { transform: translate(-9px, 6px) rotate(2deg); } }
+    @keyframes breathe { 0%, 100% { opacity: .25; transform: scale(.85); } 50% { opacity: .55; transform: scale(1.15); } }
+    @media (prefers-reduced-motion: reduce) { #network, #halo { animation: none; } }
+  </style>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#263c50" stroke-width="1" opacity=".4"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#101d2c"/>
+      <stop offset="1" stop-color="#152b36"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="280" rx="16" fill="url(#fade)"/>
+  <rect x="610" width="590" height="280" fill="url(#grid)"/>
+  <path d="M 54 64 H 122" stroke="#64ddc0" stroke-width="4" stroke-linecap="round"/>
+  <text x="54" y="114" fill="#91b8b6" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">ENGINEERING / OPEN SOURCE</text>
+  <text x="54" y="188" fill="#f5f8fa" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" letter-spacing="-1.5">Jason van Eeden</text>
+  <text x="56" y="231" fill="#c4d4da" font-family="Arial, Helvetica, sans-serif" font-size="21">Platform engineering  ·  Cloud security  ·  AI infrastructure</text>
+  <g id="network">
+    <g fill="none" stroke="#64ddc0" stroke-width="2" opacity=".75">
+      <path d="M 904 57 L 1006 91 L 1082 58 M 1006 91 L 1102 155 L 1041 229 L 930 203 L 904 57 M 930 203 L 1006 91 M 1102 155 L 1082 58"/>
+    </g>
+    <g fill="#64ddc0">
+      <circle cx="904" cy="57" r="6"/><circle cx="1006" cy="91" r="6"/><circle cx="1082" cy="58" r="6"/>
+      <circle cx="1102" cy="155" r="6"/><circle cx="1041" cy="229" r="6"/><circle cx="930" cy="203" r="6"/>
+    </g>
+    <circle id="halo" cx="1006" cy="91" r="21" fill="none" stroke="#64ddc0" stroke-width="1"/>
+  </g>
+</svg>

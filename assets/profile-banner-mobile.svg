@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="280" viewBox="0 0 600 280" role="img" aria-labelledby="title desc">
+  <title id="title">Jason van Eeden</title>
+  <desc id="desc">Platform engineering, cloud security, and AI infrastructure</desc>
+  <style>
+    #network { transform-box: fill-box; transform-origin: center; animation: drift 12s ease-in-out infinite; }
+    @keyframes drift { 0%, 100% { transform: translate(0, 0) rotate(0deg); } 50% { transform: translate(-7px, 4px) rotate(3deg); } }
+    @media (prefers-reduced-motion: reduce) { #network { animation: none; } }
+  </style>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#263c50" stroke-width="1" opacity=".4"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#101d2c"/>
+      <stop offset="1" stop-color="#152b36"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="280" rx="16" fill="url(#fade)"/>
+  <rect x="380" width="220" height="280" fill="url(#grid)"/>
+  <g id="network" fill="none" stroke="#64ddc0" stroke-width="2" opacity=".75">
+    <path d="M 466 34 L 516 54 L 560 34 L 570 89 L 521 104 L 466 34 M 516 54 L 521 104"/>
+    <g fill="#64ddc0" stroke="none">
+      <circle cx="466" cy="34" r="4"/><circle cx="516" cy="54" r="4"/><circle cx="560" cy="34" r="4"/>
+      <circle cx="570" cy="89" r="4"/><circle cx="521" cy="104" r="4"/>
+    </g>
+  </g>
+  <path d="M 34 52 H 100" stroke="#64ddc0" stroke-width="4" stroke-linecap="round"/>
+  <text x="34" y="87" fill="#91b8b6" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="3">ENGINEERING / OPEN SOURCE</text>
+  <text x="32" y="153" fill="#f5f8fa" font-family="Arial, Helvetica, sans-serif" font-size="51" font-weight="700" letter-spacing="-1.5">Jason van Eeden</text>
+  <text x="34" y="204" fill="#c4d4da" font-family="Arial, Helvetica, sans-serif" font-size="24">Platform engineering · Cloud security</text>
+  <text x="34" y="239" fill="#c4d4da" font-family="Arial, Helvetica, sans-serif" font-size="24">AI infrastructure</text>
+</svg>

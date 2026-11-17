@@ -1,0 +1,5770 @@
+[
+  {
+    "id": "4240a48.827625c",
+    "type": "subflow",
+    "name": "",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "other"
+  },
+  {
+    "id": "5b7e0e31.905c",
+    "type": "subflow",
+    "name": "Boardcast",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "other"
+  },
+  {
+    "id": "942409a.b1243f8",
+    "type": "subflow",
+    "name": "Notify",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "other"
+  },
+  {
+    "id": "fcb9c57e.afc3f8",
+    "type": "subflow",
+    "name": "broadcast and Notify",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "other"
+  },
+  {
+    "id": "6dc0247c.d7210c",
+    "type": "subflow",
+    "name": "Actionable Notification",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "other"
+  },
+  {
+    "id": "286f0d7d.940362",
+    "type": "group",
+    "name": "group",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "fcf4c373.d825d",
+    "type": "group",
+    "name": "Reset all",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "ac7e679c.eb9608",
+    "type": "group",
+    "name": "Safe Guard. Not lower than 5%",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "f43ddac8.8a2a38",
+    "type": "group",
+    "name": "Daily Refill",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "bb2877d0.c48b98",
+    "type": "group",
+    "name": "Fill tank run",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "a49c59cb.68dd08",
+    "type": "group",
+    "name": "Notify on change of tank status",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "ecd27ba8.0ba178",
+    "type": "group",
+    "name": "Tank status manager",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "1d015155.483a1f",
+    "type": "group",
+    "name": "Zone controller",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "67f99525.bbc64c",
+    "type": "group",
+    "name": "Fill tank shut off",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "f7aee764.32eb48",
+    "type": "group",
+    "name": "Update DynamicDNS",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "aa230a4b26e13242",
+    "type": "group",
+    "name": "Irragation daily run?",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "49809aa49abc9d47",
+    "type": "group",
+    "name": "Rain check",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "71e9f624050f8184",
+    "type": "group",
+    "name": "Auto irrigation",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "e52d185d.f8f928",
+    "type": "ui_base",
+    "name": "ui_base",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "dashboard"
+  },
+  {
+    "id": "9564f156.d78eb",
+    "type": "mqtt-broker",
+    "name": "MqttHomeAssistant",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "messaging"
+  },
+  {
+    "id": "798fb3e3.bb84bc",
+    "type": "join-config",
+    "name": "NodeRed",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "a5170450.afd9d8",
+    "type": "join-server",
+    "name": "",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "other"
+  },
+  {
+    "id": "ca1814a4.c51b28",
+    "type": "telegram bot",
+    "name": "telegram bot",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "other"
+  },
+  {
+    "id": "a7b76587.727dc8",
+    "type": "castv2-connection",
+    "name": "",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "other"
+  },
+  {
+    "id": "d50d0c9f.31e858",
+    "type": "tls-config",
+    "name": "",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "5116bd95.72e674",
+    "type": "castv2-connection",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "b9740fff.e920d",
+    "type": "castv2-connection",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "f925267d.f125f8",
+    "type": "castv2-connection",
+    "name": "",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "other"
+  },
+  {
+    "id": "27cacd8f.144942",
+    "type": "telegram bot",
+    "name": "telegram bot",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "other"
+  },
+  {
+    "id": "850d3f1e.25934",
+    "type": "godaddy-config",
+    "name": "Godaddy",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "bf3c8382409b1864",
+    "type": "castv2-connection",
+    "name": "Bedroom tv",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "other"
+  },
+  {
+    "id": "b46ab27a60ddf1af",
+    "type": "server",
+    "name": "Home Assistant",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "other"
+  },
+  {
+    "id": "d1d7ae28.fb61a",
+    "type": "ha-entity-config",
+    "name": "sensor config for d1d7ae28.fb61a",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "b6fd36e74d1c3bbb",
+    "type": "ha-entity-config",
+    "name": "switch config for Pool heating Cyle",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "ea1c7b93.98d878",
+    "type": "ha-entity-config",
+    "name": "sensor config for ea1c7b93.98d878",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "d868ac45a85663c3",
+    "type": "ha-entity-config",
+    "name": "switch config for d868ac45a85663c3",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "6f94be1742bb0d9d",
+    "type": "ha-entity-config",
+    "name": "switch config for 6f94be1742bb0d9d",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "bb5afc72b95f5186",
+    "type": "ha-entity-config",
+    "name": "switch config for bb5afc72b95f5186",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "9883c93c1204be4c",
+    "type": "ha-entity-config",
+    "name": "switch config for 9883c93c1204be4c",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "70011ab0a9688149",
+    "type": "ha-device-config",
+    "name": "Front irragation run",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "77f399806a15466f",
+    "type": "ha-device-config",
+    "name": "Back irragation run",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "bb1409f579ec6d48",
+    "type": "ha-device-config",
+    "name": "test swtch",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "18957adb092e4d56",
+    "type": "ha-device-config",
+    "name": "Front irrigation run",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "393ad39511f2bc77",
+    "type": "ha-entity-config",
+    "name": "Front irrigation run",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "06f75a7bc081b85e",
+    "type": "ha-device-config",
+    "name": "Back irrigation run",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "2b7a4cbd392fdd01",
+    "type": "ha-entity-config",
+    "name": "Back irrigation run",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "d85dd05dc65888ec",
+    "type": "ha-device-config",
+    "name": "testewe",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "5d759cdb1d2f59a9",
+    "type": "ha-entity-config",
+    "name": "testewe",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "43ebcdab.479ce4",
+    "type": "ha-entity-config",
+    "name": "exposed as for 43ebcdab.479ce4",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "15f5150145af7c5b",
+    "type": "ha-entity-config",
+    "name": "exposed as for Beast server power down automation",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "eeb221fb.ab27f",
+    "type": "influxdb",
+    "name": "test",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "other"
+  },
+  {
+    "id": "2f8037737e384d14",
+    "type": "ha-entity-config",
+    "name": "Rain today",
+    "flowId": "",
+    "flowLabel": "",
+    "category": "config"
+  },
+  {
+    "id": "209abf71.b3585",
+    "type": "debug",
+    "name": "",
+    "flowId": "4240a48.827625c",
+    "flowLabel": "4240a48.827625c",
+    "category": "debug"
+  },
+  {
+    "id": "6e85302e.978",
+    "type": "debug",
+    "name": "",
+    "flowId": "5b7e0e31.905c",
+    "flowLabel": "5b7e0e31.905c",
+    "category": "debug"
+  },
+  {
+    "id": "9bbd535c.f131f",
+    "type": "function",
+    "name": "",
+    "flowId": "5b7e0e31.905c",
+    "flowLabel": "5b7e0e31.905c",
+    "category": "transform"
+  },
+  {
+    "id": "b796f485.a64398",
+    "type": "castv2-sender",
+    "name": "",
+    "flowId": "5b7e0e31.905c",
+    "flowLabel": "5b7e0e31.905c",
+    "category": "other"
+  },
+  {
+    "id": "ddb40de3.61c3f",
+    "type": "castv2-sender",
+    "name": "",
+    "flowId": "5b7e0e31.905c",
+    "flowLabel": "5b7e0e31.905c",
+    "category": "other"
+  },
+  {
+    "id": "89157a6.e810888",
+    "type": "function",
+    "name": "Create message",
+    "flowId": "942409a.b1243f8",
+    "flowLabel": "942409a.b1243f8",
+    "category": "transform"
+  },
+  {
+    "id": "b52eab6a.464ac8",
+    "type": "api-call-service",
+    "name": "Notify Jason",
+    "flowId": "942409a.b1243f8",
+    "flowLabel": "942409a.b1243f8",
+    "category": "other"
+  },
+  {
+    "id": "e2bb94be.25b168",
+    "type": "api-current-state",
+    "name": "Can notify?",
+    "flowId": "942409a.b1243f8",
+    "flowLabel": "942409a.b1243f8",
+    "category": "other"
+  },
+  {
+    "id": "d2a986fa.587398",
+    "type": "subflow:5b7e0e31.905c",
+    "name": "",
+    "flowId": "fcb9c57e.afc3f8",
+    "flowLabel": "fcb9c57e.afc3f8",
+    "category": "other"
+  },
+  {
+    "id": "cab38a96.74f918",
+    "type": "subflow:942409a.b1243f8",
+    "name": "",
+    "flowId": "fcb9c57e.afc3f8",
+    "flowLabel": "fcb9c57e.afc3f8",
+    "category": "other"
+  },
+  {
+    "id": "f9e57204.71076",
+    "type": "function",
+    "name": "create service call",
+    "flowId": "6dc0247c.d7210c",
+    "flowLabel": "6dc0247c.d7210c",
+    "category": "transform"
+  },
+  {
+    "id": "974bd48d.c253e8",
+    "type": "switch",
+    "name": "which action?",
+    "flowId": "6dc0247c.d7210c",
+    "flowLabel": "6dc0247c.d7210c",
+    "category": "transform"
+  },
+  {
+    "id": "204dbcfc.144ae4",
+    "type": "status",
+    "name": "",
+    "flowId": "6dc0247c.d7210c",
+    "flowLabel": "6dc0247c.d7210c",
+    "category": "debug"
+  },
+  {
+    "id": "5bc7345c.07b1cc",
+    "type": "function",
+    "name": "build message",
+    "flowId": "6dc0247c.d7210c",
+    "flowLabel": "6dc0247c.d7210c",
+    "category": "transform"
+  },
+  {
+    "id": "8d3bdc0c.37493",
+    "type": "switch",
+    "name": "belongs here?",
+    "flowId": "6dc0247c.d7210c",
+    "flowLabel": "6dc0247c.d7210c",
+    "category": "transform"
+  },
+  {
+    "id": "3618f055.6909a",
+    "type": "server-events",
+    "name": "mobile_app_notification_cleared",
+    "flowId": "6dc0247c.d7210c",
+    "flowLabel": "6dc0247c.d7210c",
+    "category": "other"
+  },
+  {
+    "id": "83ad2004.d04d",
+    "type": "switch",
+    "name": "fetch user info?",
+    "flowId": "6dc0247c.d7210c",
+    "flowLabel": "6dc0247c.d7210c",
+    "category": "transform"
+  },
+  {
+    "id": "9d85d137.fe487",
+    "type": "switch",
+    "name": "",
+    "flowId": "6dc0247c.d7210c",
+    "flowLabel": "6dc0247c.d7210c",
+    "category": "transform"
+  },
+  {
+    "id": "a622c92a.2d9898",
+    "type": "function",
+    "name": "create clear notification",
+    "flowId": "6dc0247c.d7210c",
+    "flowLabel": "6dc0247c.d7210c",
+    "category": "transform"
+  },
+  {
+    "id": "9bfe567c.3d10c8",
+    "type": "server-events",
+    "name": "mobile_app_notification_action",
+    "flowId": "6dc0247c.d7210c",
+    "flowLabel": "6dc0247c.d7210c",
+    "category": "other"
+  },
+  {
+    "id": "368c9723.5876f8",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "6dc0247c.d7210c",
+    "flowLabel": "6dc0247c.d7210c",
+    "category": "other"
+  },
+  {
+    "id": "271e4479.b9249c",
+    "type": "ha-api",
+    "name": "get user info",
+    "flowId": "6dc0247c.d7210c",
+    "flowLabel": "6dc0247c.d7210c",
+    "category": "other"
+  },
+  {
+    "id": "68bae474.4ecdcc",
+    "type": "time-range-switch",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "47ea8422.11104c",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "56c6c0ff.27a87",
+    "type": "delay",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "5f31eda6.0179d4",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "ca632c38.94131",
+    "type": "switch",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "85e08e6d.2ba72",
+    "type": "api-call-service",
+    "name": "Turn on passage light",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "82a650f2.e3743",
+    "type": "debug",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "debug"
+  },
+  {
+    "id": "e268cb4b.7923e8",
+    "type": "api-current-state",
+    "name": "Kitchen light is off",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "4b5cc2e4.38655c",
+    "type": "ha-webhook",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "4fca0b9d.61a824",
+    "type": "json",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "348994e5.5dc44c",
+    "type": "change",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "4c58bac9.b2f974",
+    "type": "switch",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "14876f.5deb6892",
+    "type": "delay",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "9f430cd.73790f",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "f4e185f3.57f5f8",
+    "type": "change",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "9d30a221.f533a",
+    "type": "server-state-changed",
+    "name": "TV state changed",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "86eb8e9f.ccd6f",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "2a2bc40e.5c3e2c",
+    "type": "mqtt in",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "messaging"
+  },
+  {
+    "id": "29c7e620.819d3a",
+    "type": "delay",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "fec6260a.42a388",
+    "type": "debug",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "debug"
+  },
+  {
+    "id": "36f2333a.33b40c",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "423ff721.7e8aa8",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "eefc629c.96f06",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "8447bc30.841a8",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "448b9d8e.148a04",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "4a97578a.fec968",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "74e9f726.bff2b8",
+    "type": "server-events",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "9df4206c.3f86c",
+    "type": "function",
+    "name": "Create message",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "9dec1cc7.3c9c2",
+    "type": "api-call-service",
+    "name": "Notify Jason",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "a5d6875c.7cc358",
+    "type": "api-call-service",
+    "name": "Notify Kim",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "f09f4b92.55eae8",
+    "type": "function",
+    "name": "Create message",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "5606eaf1.0957a4",
+    "type": "switch",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "14d2bb3b.6e2ef5",
+    "type": "debug",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "debug"
+  },
+  {
+    "id": "c98bbd0d.81f1",
+    "type": "api-call-service",
+    "name": "Notify Jason",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "a7518b39.9307b8",
+    "type": "function",
+    "name": "Create message",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "8cc755eb.d7cb18",
+    "type": "api-call-service",
+    "name": "Notify Kim",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "cea87e22.0ab8e",
+    "type": "function",
+    "name": "Create message",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "97bb5957.3ae3e8",
+    "type": "inject",
+    "name": "Thursday at 5:30am",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "source"
+  },
+  {
+    "id": "2ffe61aa.d9e24e",
+    "type": "comment",
+    "name": "Bin day",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "92003d46.b6a18",
+    "type": "function",
+    "name": "Create message",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "975208e3.06efc8",
+    "type": "api-call-service",
+    "name": "Notify Jason",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "18208c3b.cd5594",
+    "type": "inject",
+    "name": "Thursday at 5:30am",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "source"
+  },
+  {
+    "id": "5b3af651.dc55a8",
+    "type": "link in",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "source"
+  },
+  {
+    "id": "9a8ea57e.34e7f8",
+    "type": "change",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "ddd263bc.ef711",
+    "type": "delay",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "94e0f415.a0dc28",
+    "type": "comment",
+    "name": "Kitchen light control",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "ff404433.7c7f78",
+    "type": "comment",
+    "name": "IFTT webhooks",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "94e77d58.f7eae",
+    "type": "comment",
+    "name": "Electric readings",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "44d544d9.41b6ac",
+    "type": "comment",
+    "name": "TV mood lighting",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "e43d821a.5440a",
+    "type": "comment",
+    "name": "Sound system",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "1e86eb2e.25cc15",
+    "type": "switch",
+    "name": "Guard",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "91342936.d2b9a8",
+    "type": "server-state-changed",
+    "name": "Kitchen light turned off",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "885e1ce9.9a5f2",
+    "type": "change",
+    "name": "Set Guard",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "1fdcf666.71dcba",
+    "type": "change",
+    "name": "Lift Guard",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "3602d65f.db2cea",
+    "type": "delay",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "60adbf06.71872",
+    "type": "debug",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "debug"
+  },
+  {
+    "id": "cc3236b7.34a658",
+    "type": "server-events",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "9cdf4fdb.a28c8",
+    "type": "ha-get-entities",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "d4ceddb4.52709",
+    "type": "template",
+    "name": "Format Friendly Name",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "template"
+  },
+  {
+    "id": "9c785f9a.d906e",
+    "type": "change",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "6e951674.753e48",
+    "type": "switch",
+    "name": "single_click",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "4c933ffe.2d23a",
+    "type": "switch",
+    "name": "double_click",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "de8caa96.36e4c8",
+    "type": "switch",
+    "name": "hold_click",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "1e1217dc.44c048",
+    "type": "switch",
+    "name": "button.name",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "88e7b0bc.6ee93",
+    "type": "switch",
+    "name": "button.name",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "4aacdd4.4f7aa24",
+    "type": "switch",
+    "name": "button.name",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "733b8bff.7a25d4",
+    "type": "debug",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "debug"
+  },
+  {
+    "id": "72b7f30e.20433c",
+    "type": "change",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "b8a12563.afdd18",
+    "type": "comment",
+    "name": "Xioami Buttons",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "927641ad.7a55a",
+    "type": "Metric per Topic",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "d4c51c6a.860f8",
+    "type": "mqtt in",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "messaging"
+  },
+  {
+    "id": "a464077d.821768",
+    "type": "mqtt out",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "messaging"
+  },
+  {
+    "id": "887f6890.9ea5b8",
+    "type": "inject",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "source"
+  },
+  {
+    "id": "a9830a6b.3fa5b8",
+    "type": "castv2-sender",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "937ab3cd.5f7fc",
+    "type": "godaddy-node",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "63a589c4.b0f048",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "efa0b945.1718a8",
+    "type": "subflow:942409a.b1243f8",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "69f616c8.8dc818",
+    "type": "change",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "transform"
+  },
+  {
+    "id": "d6f3eb198a5a44b7",
+    "type": "ha-sensor",
+    "name": "",
+    "flowId": "a3de161f.d671b8",
+    "flowLabel": "Randoms",
+    "category": "other"
+  },
+  {
+    "id": "ea4204ba.d23628",
+    "type": "poll-state",
+    "name": "Check tank status",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "12b61f6f.92cbb1",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "d67385ec.aa76e8",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "b34fc8ef.6110a8",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "9cc02ff4.5be05",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "165c6a74.90d8a6",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "57deb5bb.2d8c2c",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "1a016676.804a9a",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "6e5f664d.594ab8",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "60d89ed9.1f351",
+    "type": "change",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "3b99c354.8cb82c",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "4d753494.db6b3c",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "57255a44.3c0864",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "6edf54e9.af8eac",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "260eca40.c3a216",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "fd9ee16a.a118d",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "d2b71ae.69429e8",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "6b9cded.119112",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "1c8af02f.14085",
+    "type": "change",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "9f7cd283.c7d7c",
+    "type": "change",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "77c45bd1.e98bc4",
+    "type": "link in",
+    "name": "Reset Irragation all",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "ce500616.ded128",
+    "type": "api-call-service",
+    "name": "switch.irragation_front_road",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "c33f501b.d40f3",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "ed736fc0.4b0b2",
+    "type": "api-call-service",
+    "name": "switch.irragation_front_door",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "d3c1e1b1.1d8ca",
+    "type": "api-call-service",
+    "name": "switch.irrigation_backyard_pool",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "44c01394.80f31c",
+    "type": "api-call-service",
+    "name": "switch.irrigation_backyard_house",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "429ba9ab.f18488",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "6e8b44d2.33705c",
+    "type": "link in",
+    "name": "Start Irragation front",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "1a1b646c.fd229c",
+    "type": "link in",
+    "name": "Start Irragation back",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "8d4fc91b.5a1698",
+    "type": "inject",
+    "name": "At 11pm",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "33ea7ec.2182a82",
+    "type": "api-current-state",
+    "name": "Check if tank is not full",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "b610b7bc.0a9e28",
+    "type": "link in",
+    "name": "Fill tank",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "19a688f7.e54ac7",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "c28ea326.87887",
+    "type": "api-call-service",
+    "name": "switch.wellpoint",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "7e2ec183.2f7cf",
+    "type": "api-call-service",
+    "name": "Turn jojo in on",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "d92b9b03.2ba1d8",
+    "type": "api-call-service",
+    "name": "Turn jojo in off",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "406a8190.36987",
+    "type": "api-call-service",
+    "name": "Turn jojo out off",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "fb4690cd.f01dc",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "856616f1.473558",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "a8529951.84cde8",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "d084f89.fecba08",
+    "type": "subflow:942409a.b1243f8",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "bd005ab4.564cf8",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "103365e6.741cba",
+    "type": "api-call-service",
+    "name": "switch.wellpoint",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "769a7bb1.bb2b24",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "40890ba5.629764",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "11f82f8f.1873e",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "630277db.e14848",
+    "type": "api-current-state",
+    "name": "Check if tank low",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "7dc4128e.60ad3c",
+    "type": "subflow:942409a.b1243f8",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "b1afb731.b9e4e8",
+    "type": "change",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "a2ee0984.077e78",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "52cf3589.b9b8ec",
+    "type": "api-call-service",
+    "name": "switch.wellpoint",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "e21d60c5.3c819",
+    "type": "link in",
+    "name": "Start Irragation garden",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "91c784ca.596548",
+    "type": "api-call-service",
+    "name": "switch.irrigation_front_garden",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "c8cf4b12.c41c48",
+    "type": "comment",
+    "name": "Irragation front",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "d798025.17e82",
+    "type": "comment",
+    "name": "Irragation back",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "6b77e75e.172578",
+    "type": "comment",
+    "name": "Irragation garden",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "190ee308.1c2e9d",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "92d3b5a4.68c238",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "2fdac836.2586f8",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "3149ac7f.f79c14",
+    "type": "api-call-service",
+    "name": "switch.wellpoint",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "8d1ecb43.bb1c38",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "d85fa5c4.e088c8",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "822082cd.8f099",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "dc4a8df0.6b6ce",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "13c52082f3a097dd",
+    "type": "debug",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "debug"
+  },
+  {
+    "id": "a1d08eddf6e487a9",
+    "type": "debug",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "debug"
+  },
+  {
+    "id": "a9b2023d5db8b006",
+    "type": "api-call-service",
+    "name": "switch.wellpoint",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "339a128ce3af3082",
+    "type": "change",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "6a554072128441af",
+    "type": "link in",
+    "name": "Stop Irragation",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "ce7c3a2cea750745",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "88ccef99cbe8827d",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "1092fed49437ad95",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "8ef5a00a07b6cd93",
+    "type": "api-call-service",
+    "name": "switch.wellpoint",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "fe4d122d715c5312",
+    "type": "api-call-service",
+    "name": "Turn off front road irragation",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "3b4bdc310eb18fab",
+    "type": "api-call-service",
+    "name": "Turn off front door irragation",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "79265d36e2a1bc88",
+    "type": "api-call-service",
+    "name": "Turn off front backyard house irragation",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "faf7d3c907d90d03",
+    "type": "api-call-service",
+    "name": "Turn off front backyard pool",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "50b94d95160c0feb",
+    "type": "api-call-service",
+    "name": "Turn off irragation back garden",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "e030fc02816e6949",
+    "type": "link in",
+    "name": "Reset Irragation",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "dfbbccd4d20f6f77",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "55c99ac100fb11e6",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "8baa78209bb20da9",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "30447274d615c0ef",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "7108f34d847f0c65",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "9d2ccb6cbc05a65e",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "f5a865d90dfb53e0",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "106741e5474979b4",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "80352f416c516980",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "cb0dd579e1bd4948",
+    "type": "api-call-service",
+    "name": "switch.wellpoint",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "0893e72e21729093",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "049cfe243baa5ce4",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "8e9782ce2f281ade",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "e15b8c2c6e0a9fe3",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "a1f35fd4335dd1be",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "31748ad2789ef3b7",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "482e18546d36f59f",
+    "type": "function",
+    "name": "create response",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "74e8d392a0cf27b5",
+    "type": "telegram sender",
+    "name": "sender",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "ef6de870c3ded99c",
+    "type": "inject",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "853d6ee9296b72ec",
+    "type": "telegram receiver",
+    "name": "receiver",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "9465f206af09074f",
+    "type": "function",
+    "name": "create keyboard message",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "1e812737259bd14f",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "4c7348fbe64e3df6",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "1c736c37a6dfc7fc",
+    "type": "api-call-service",
+    "name": "switch.wellpoint",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "b720d472a98d3c33",
+    "type": "link out",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "241da7fbaa590dd6",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "b90133eb5acdaf70",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "abd792797bbb25cf",
+    "type": "ha-sensor",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "8ac1328b16d60f12",
+    "type": "ha-switch",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "0687ec4b8375777d",
+    "type": "ha-switch",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "6ba515af7c2fa311",
+    "type": "ha-switch",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "a3ffb4ce326718fc",
+    "type": "ha-switch",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "5c5bd08e278b56f1",
+    "type": "ha-switch",
+    "name": "Front irrigation run",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "fc9adc116f638636",
+    "type": "ha-switch",
+    "name": "Back irrigation run",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "f264fe1ceb859e68",
+    "type": "debug",
+    "name": "debug 1",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "debug"
+  },
+  {
+    "id": "9203004254a37112",
+    "type": "debug",
+    "name": "debug 2",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "debug"
+  },
+  {
+    "id": "8c859facc5c1d4d0",
+    "type": "ha-switch",
+    "name": "testewe",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "cfcf53bdb533160d",
+    "type": "api-call-service",
+    "name": "switch.irrigation_backyard_house",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "bfbdcfb91eb8dfa2",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "679dbf01.dcad3",
+    "type": "openweathermap",
+    "name": "Weather",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "8322f653.bd1b08",
+    "type": "inject",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "a99b67de110e9d64",
+    "type": "function",
+    "name": "Rain check",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "b09bf2953ffb43ce",
+    "type": "ha-binary-sensor",
+    "name": "Rain today",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "17c9ec65aa6f9713",
+    "type": "inject",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "61ec021c0d7f9bd4",
+    "type": "api-current-state",
+    "name": "Check if raining today",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "8ab43176157dd645",
+    "type": "inject",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "46ef1d5ef9f8dfbd",
+    "type": "link out",
+    "name": "reset",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "26fec182c2b0c834",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "b10b6c715a45e0d5",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "1173f9aa233b6ae4",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "cff8156370de462d",
+    "type": "link out",
+    "name": "Reset",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "cd5f1f107d9f5797",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "ecb739f550a99410",
+    "type": "change",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "6f315157bba66de5",
+    "type": "inject",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "cfef47e247a3ca39",
+    "type": "link out",
+    "name": "Reset",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "e32069b0fc063b99",
+    "type": "api-current-state",
+    "name": "Check if raining today",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "b3dc955048191bc0",
+    "type": "api-call-service",
+    "name": "switch.wellpoint",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "f67dc6891086738f",
+    "type": "api-call-service",
+    "name": "switch.wellpoint",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "17a8c3482d3c71e8",
+    "type": "inject",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "d3f163d442c94797",
+    "type": "link out",
+    "name": "Reset",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "source"
+  },
+  {
+    "id": "fd97a9960fd2b699",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "578917ed47e4a19e",
+    "type": "delay",
+    "name": "",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "13eda64bd8bc2692",
+    "type": "api-call-service",
+    "name": "Turn off front garden",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "aa82d420e2d85620",
+    "type": "function",
+    "name": "create keyboard message",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "transform"
+  },
+  {
+    "id": "41718b298d07e875",
+    "type": "telegram sender",
+    "name": "sender",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "36e07f7d42421cbc",
+    "type": "comment",
+    "name": "plant Irragation",
+    "flowId": "a74e20dd.9abd3",
+    "flowLabel": "Irragation",
+    "category": "other"
+  },
+  {
+    "id": "7eff839b.4b41ac",
+    "type": "server-state-changed",
+    "name": "Home not occupid?",
+    "flowId": "70bbf526.877a2c",
+    "flowLabel": "Turn off lights when away",
+    "category": "transform"
+  },
+  {
+    "id": "95e08164.5730b",
+    "type": "api-call-service",
+    "name": "Turn off passage light",
+    "flowId": "70bbf526.877a2c",
+    "flowLabel": "Turn off lights when away",
+    "category": "other"
+  },
+  {
+    "id": "8fd49c6f.6ffc",
+    "type": "api-call-service",
+    "name": "Turn off kitchen",
+    "flowId": "70bbf526.877a2c",
+    "flowLabel": "Turn off lights when away",
+    "category": "other"
+  },
+  {
+    "id": "cca00ef1.b70d2",
+    "type": "api-call-service",
+    "name": "Notify Jason",
+    "flowId": "70bbf526.877a2c",
+    "flowLabel": "Turn off lights when away",
+    "category": "other"
+  },
+  {
+    "id": "b238240c.906a28",
+    "type": "function",
+    "name": "Create message",
+    "flowId": "70bbf526.877a2c",
+    "flowLabel": "Turn off lights when away",
+    "category": "transform"
+  },
+  {
+    "id": "83ce71fb.28fa5",
+    "type": "api-current-state",
+    "name": "Can notify?",
+    "flowId": "70bbf526.877a2c",
+    "flowLabel": "Turn off lights when away",
+    "category": "other"
+  },
+  {
+    "id": "d1401571.6ce6f8",
+    "type": "server-state-changed",
+    "name": "Xioami Temp",
+    "flowId": "552df9a8.bd5998",
+    "flowLabel": "Battery check",
+    "category": "transform"
+  },
+  {
+    "id": "ac85d09a.f06bb",
+    "type": "switch",
+    "name": "Check Battery",
+    "flowId": "552df9a8.bd5998",
+    "flowLabel": "Battery check",
+    "category": "transform"
+  },
+  {
+    "id": "c74a4bee.b1f108",
+    "type": "api-call-service",
+    "name": "Notify Jason",
+    "flowId": "552df9a8.bd5998",
+    "flowLabel": "Battery check",
+    "category": "other"
+  },
+  {
+    "id": "9d3995f2.6078b8",
+    "type": "function",
+    "name": "Create message",
+    "flowId": "552df9a8.bd5998",
+    "flowLabel": "Battery check",
+    "category": "transform"
+  },
+  {
+    "id": "d6cfb10e.03e5d",
+    "type": "api-current-state",
+    "name": "Can notify?",
+    "flowId": "552df9a8.bd5998",
+    "flowLabel": "Battery check",
+    "category": "other"
+  },
+  {
+    "id": "98550bac.1841c8",
+    "type": "api-current-state",
+    "name": "Is Kim away",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "other"
+  },
+  {
+    "id": "2559a82d.978528",
+    "type": "api-current-state",
+    "name": "Is Jason away",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "other"
+  },
+  {
+    "id": "5b1b9d86.7e9354",
+    "type": "server-state-changed",
+    "name": "Is Kim home",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "transform"
+  },
+  {
+    "id": "7f0be531.fe3f0c",
+    "type": "api-call-service",
+    "name": "Away",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "other"
+  },
+  {
+    "id": "4e534cd5.37f994",
+    "type": "api-call-service",
+    "name": "Home",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "other"
+  },
+  {
+    "id": "91cd8d41.98aaa",
+    "type": "api-current-state",
+    "name": "Is there no House Guests",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "other"
+  },
+  {
+    "id": "2fe208be.6d1628",
+    "type": "server-state-changed",
+    "name": "Is Jason home",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "transform"
+  },
+  {
+    "id": "22777af5.e93cf6",
+    "type": "debug",
+    "name": "Debug message",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "debug"
+  },
+  {
+    "id": "98b60a85.a8bf38",
+    "type": "server-state-changed",
+    "name": "Is Jason away",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "transform"
+  },
+  {
+    "id": "c55c4635.ce2338",
+    "type": "server-state-changed",
+    "name": "Is Kim away",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "transform"
+  },
+  {
+    "id": "aa04532b.bae21",
+    "type": "subflow:942409a.b1243f8",
+    "name": "",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "other"
+  },
+  {
+    "id": "76c030b.6fe1ad",
+    "type": "change",
+    "name": "",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "transform"
+  },
+  {
+    "id": "5d25dbd4.de1f34",
+    "type": "change",
+    "name": "",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "transform"
+  },
+  {
+    "id": "1f5b8b7a.d5eba5",
+    "type": "subflow:942409a.b1243f8",
+    "name": "",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "other"
+  },
+  {
+    "id": "9b251911.43e128",
+    "type": "debug",
+    "name": "Debug message",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "debug"
+  },
+  {
+    "id": "e2279bda.9cdc88",
+    "type": "function",
+    "name": "",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "transform"
+  },
+  {
+    "id": "6ff285aa.c00b4c",
+    "type": "subflow:942409a.b1243f8",
+    "name": "",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "other"
+  },
+  {
+    "id": "8938227e.8fda6",
+    "type": "server-state-changed",
+    "name": "Is Kim home",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "transform"
+  },
+  {
+    "id": "3b2a62d8.6d102e",
+    "type": "server-state-changed",
+    "name": "Is Jason home",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "transform"
+  },
+  {
+    "id": "80d6ea66.0910a8",
+    "type": "server-state-changed",
+    "name": "Is Jason away",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "transform"
+  },
+  {
+    "id": "6451fdbf.f5ffa4",
+    "type": "server-state-changed",
+    "name": "Is Kim away",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "transform"
+  },
+  {
+    "id": "d1de993b8a448afe",
+    "type": "inject",
+    "name": "",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "source"
+  },
+  {
+    "id": "6684b47de0b53188",
+    "type": "server-state-changed",
+    "name": "Home state change",
+    "flowId": "201fd6ca.f39c2a",
+    "flowLabel": "home occupied",
+    "category": "transform"
+  },
+  {
+    "id": "b503dedb.9387c",
+    "type": "mqtt in",
+    "name": "RF Bridge",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "messaging"
+  },
+  {
+    "id": "9c3151be.69b77",
+    "type": "switch",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "transform"
+  },
+  {
+    "id": "4535c0c3.f6b07",
+    "type": "json",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "other"
+  },
+  {
+    "id": "280b9a61.65e896",
+    "type": "api-call-service",
+    "name": "Open small gate",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "other"
+  },
+  {
+    "id": "c6e65879.1ebe28",
+    "type": "api-call-service",
+    "name": "Open Big gate",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "other"
+  },
+  {
+    "id": "7a7bd0b3.524e6",
+    "type": "api-call-service",
+    "name": "Turn on passage light",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "other"
+  },
+  {
+    "id": "19392fb6.4ea4d",
+    "type": "change",
+    "name": "Set signal message",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "transform"
+  },
+  {
+    "id": "44c5ac5e.422154",
+    "type": "api-current-state",
+    "name": "Someone at home",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "other"
+  },
+  {
+    "id": "47c2fc84.791e74",
+    "type": "change",
+    "name": "Get signal message",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "transform"
+  },
+  {
+    "id": "f82c1e2c.1113a",
+    "type": "debug",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "debug"
+  },
+  {
+    "id": "a3daf0c4.e2b68",
+    "type": "delay",
+    "name": "Limit",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "other"
+  },
+  {
+    "id": "583ef48d.353f3c",
+    "type": "inject",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "source"
+  },
+  {
+    "id": "9943745.d553388",
+    "type": "api-call-service",
+    "name": "Toggle fan",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "other"
+  },
+  {
+    "id": "f6d2ecb3.4b0d7",
+    "type": "switch",
+    "name": "Sonoff remote",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "transform"
+  },
+  {
+    "id": "66b9c05f.e218",
+    "type": "delay",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "other"
+  },
+  {
+    "id": "34416e18.73fe72",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "other"
+  },
+  {
+    "id": "93675383.ac422",
+    "type": "change",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "transform"
+  },
+  {
+    "id": "fe757581.0d33f8",
+    "type": "change",
+    "name": "15min",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "transform"
+  },
+  {
+    "id": "167d7aee.d12eb5",
+    "type": "change",
+    "name": "30min",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "transform"
+  },
+  {
+    "id": "e688cd0c.6d56d",
+    "type": "cast-to-client",
+    "name": "bedroom",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "other"
+  },
+  {
+    "id": "9450b315.f7b07",
+    "type": "delay",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "other"
+  },
+  {
+    "id": "1113c1c6.f9bb0e",
+    "type": "change",
+    "name": "60min",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "transform"
+  },
+  {
+    "id": "a5ddc79.c1acb38",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "other"
+  },
+  {
+    "id": "5624717a.f8338",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "other"
+  },
+  {
+    "id": "54758707.05e848",
+    "type": "inject",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "source"
+  },
+  {
+    "id": "9cc9d6e7.a87658",
+    "type": "catch",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "source"
+  },
+  {
+    "id": "42233300.64813c",
+    "type": "debug",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "debug"
+  },
+  {
+    "id": "ae1af388.3350e",
+    "type": "api-call-service",
+    "name": "Google say",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "other"
+  },
+  {
+    "id": "73a5a6d5.1ec7e8",
+    "type": "inject",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "source"
+  },
+  {
+    "id": "9d1f8f9b.5b70c",
+    "type": "api-call-service",
+    "name": "Google say",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "other"
+  },
+  {
+    "id": "5807016b.fcd06",
+    "type": "inject",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "source"
+  },
+  {
+    "id": "b40499a8.947c38",
+    "type": "debug",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "debug"
+  },
+  {
+    "id": "ae2caa9c.c33478",
+    "type": "debug",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "debug"
+  },
+  {
+    "id": "9641f66b.3dfb98",
+    "type": "function",
+    "name": "",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "transform"
+  },
+  {
+    "id": "2b21d093.8b00f",
+    "type": "delay",
+    "name": "Limit",
+    "flowId": "532177ac.74eda8",
+    "flowLabel": "RF Signals",
+    "category": "other"
+  },
+  {
+    "id": "45989bff.adbe14",
+    "type": "mqtt in",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "messaging"
+  },
+  {
+    "id": "c8cb93d9.3d88a",
+    "type": "debug",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "debug"
+  },
+  {
+    "id": "4a1abeb.f7fb54",
+    "type": "mqtt in",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "messaging"
+  },
+  {
+    "id": "a276d489.032138",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "e669d7cd.c0daa8",
+    "type": "inject",
+    "name": "Show weather",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "source"
+  },
+  {
+    "id": "c7a6a907.ab6a38",
+    "type": "catch",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "source"
+  },
+  {
+    "id": "36c6562e.dbaa0a",
+    "type": "debug",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "debug"
+  },
+  {
+    "id": "e8de1833.946128",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "6b3b0f6a.db217",
+    "type": "inject",
+    "name": "Show weather",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "source"
+  },
+  {
+    "id": "f5416aed.533748",
+    "type": "comment",
+    "name": "Bin day",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "72ae8fe4.b2559",
+    "type": "telegram receiver",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "c894e3f2.469b4",
+    "type": "debug",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "debug"
+  },
+  {
+    "id": "3e4c4142.54392e",
+    "type": "telegram command",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "af9162d4.2adbc",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "7eb671cd.fdde8",
+    "type": "inject",
+    "name": "Show weather",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "source"
+  },
+  {
+    "id": "76231dc8.a3e4b4",
+    "type": "comment",
+    "name": "Broadcast via Google Home",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "50000c2e.f7fe74",
+    "type": "delay",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "ba020738.8809a8",
+    "type": "http request",
+    "name": "post",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "network"
+  },
+  {
+    "id": "397ab4fe.c2b96c",
+    "type": "inject",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "source"
+  },
+  {
+    "id": "81f2202d.7d7be",
+    "type": "inject",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "source"
+  },
+  {
+    "id": "35993083.7fced",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "e211ab6d.176b28",
+    "type": "api-call-service",
+    "name": "Google say",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "99c55ce.a19a0a",
+    "type": "inject",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "source"
+  },
+  {
+    "id": "a9872275.2e8bf",
+    "type": "function",
+    "name": "set payload and headers",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "transform"
+  },
+  {
+    "id": "e911fd.fdd53e",
+    "type": "debug",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "debug"
+  },
+  {
+    "id": "c734982f.a81f28",
+    "type": "inject",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "source"
+  },
+  {
+    "id": "31667da4.70a252",
+    "type": "function",
+    "name": "set payload and headers",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "transform"
+  },
+  {
+    "id": "270fea00.febe16",
+    "type": "delay",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "6f0672f1.5981cc",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "ce681b1a.56fd18",
+    "type": "comment",
+    "name": "Bed heater Auto off",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "eab22115.4132",
+    "type": "catch",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "source"
+  },
+  {
+    "id": "85a14b45.0ca358",
+    "type": "debug",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "debug"
+  },
+  {
+    "id": "7653be66.604bc",
+    "type": "dynamic-dimmer",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "df2c2822.87b978",
+    "type": "debug",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "debug"
+  },
+  {
+    "id": "5f88744c.6b8dcc",
+    "type": "inject",
+    "name": "Dim up",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "source"
+  },
+  {
+    "id": "5a8c4103.47826",
+    "type": "inject",
+    "name": "Dim Down",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "source"
+  },
+  {
+    "id": "43b699b8.0bb2e8",
+    "type": "inject",
+    "name": "Dim up",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "source"
+  },
+  {
+    "id": "30fbf639.f75d5a",
+    "type": "api-call-service",
+    "name": "Main bedroom lights",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "d10a5d0f.cdf45",
+    "type": "mqtt in",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "messaging"
+  },
+  {
+    "id": "87a9bb62.00dde8",
+    "type": "switch",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "transform"
+  },
+  {
+    "id": "6ba68e6e.0fde2",
+    "type": "function",
+    "name": "Dim up",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "transform"
+  },
+  {
+    "id": "976b1c8a.ef851",
+    "type": "function",
+    "name": "Dim Down",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "transform"
+  },
+  {
+    "id": "11c61c4c.7e3244",
+    "type": "api-call-service",
+    "name": "Main bedroom lights",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "2d5fb092.f14ee",
+    "type": "dynamic-dimmer",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "3511c1f2.dd718e",
+    "type": "function",
+    "name": "Reset",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "transform"
+  },
+  {
+    "id": "6a05bc38.5f6254",
+    "type": "debug",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "debug"
+  },
+  {
+    "id": "aded9ca2.3be2e",
+    "type": "debug",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "debug"
+  },
+  {
+    "id": "72f62640.63ad38",
+    "type": "debug",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "debug"
+  },
+  {
+    "id": "2f2d288d.3db7d8",
+    "type": "function",
+    "name": "Dim up",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "transform"
+  },
+  {
+    "id": "204ad0c1.f36fc",
+    "type": "inject",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "source"
+  },
+  {
+    "id": "31873e7.a4e12c2",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "c7ee8433118b3e0d",
+    "type": "api-call-service",
+    "name": "Turn on pool",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "4e0db65919f893a1",
+    "type": "delay",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "1719bd6058518f39",
+    "type": "api-call-service",
+    "name": "Turn off pool",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "b916c8d9e596ac3f",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "43898474edd62c84",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "6b066d9f67c2fdd5",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "transform"
+  },
+  {
+    "id": "cbbbd09964929df2",
+    "type": "debug",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "debug"
+  },
+  {
+    "id": "dcdae9c051684699",
+    "type": "server-state-changed",
+    "name": "Kitchen light turned off",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "transform"
+  },
+  {
+    "id": "725bb9e2d3d2ec0a",
+    "type": "api-call-service",
+    "name": "Turn off passage light",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "324ce1e14cb0baa3",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "transform"
+  },
+  {
+    "id": "b2d13f9a0b4be1b2",
+    "type": "debug",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "debug"
+  },
+  {
+    "id": "482cbab5f8f1db4a",
+    "type": "delay",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "other"
+  },
+  {
+    "id": "ca402a9271a76e7b",
+    "type": "ha-switch",
+    "name": "Pool heating Cyle",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "transform"
+  },
+  {
+    "id": "46400b4b82650e6e",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "3bfde67f.94395a",
+    "flowLabel": "test",
+    "category": "transform"
+  },
+  {
+    "id": "f44d2374.7e90b",
+    "type": "ha-webhook",
+    "name": "Dialogflow",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "f705ccaa.124e1",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "debug"
+  },
+  {
+    "id": "1fb69645.65adea",
+    "type": "http in",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "network"
+  },
+  {
+    "id": "bab43bdc.4f9278",
+    "type": "http response",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "network"
+  },
+  {
+    "id": "4fe1754f.8d8c7c",
+    "type": "function",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "b08679fb.359b38",
+    "type": "http in",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "network"
+  },
+  {
+    "id": "2e741a21.dad1e6",
+    "type": "http response",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "network"
+  },
+  {
+    "id": "44ae5014.b5a8c",
+    "type": "function",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "45112481.9ab21c",
+    "type": "catch",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "source"
+  },
+  {
+    "id": "28059566.5e5f7a",
+    "type": "debug",
+    "name": "Debug",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "debug"
+  },
+  {
+    "id": "46468c69.df3144",
+    "type": "function",
+    "name": "confirmation message",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "904ef9fc.8b6088",
+    "type": "telegram command",
+    "name": "/foo",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "a22d00e8.a80fb",
+    "type": "function",
+    "name": "create response",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "51c38ac7.ef1204",
+    "type": "telegram sender",
+    "name": "send response",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "72678503.a0860c",
+    "type": "telegram command",
+    "name": "/help",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "2cd1701f.be0ab",
+    "type": "function",
+    "name": "create help text",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "a03e3ffd.718d2",
+    "type": "telegram receiver",
+    "name": "location",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "f141aafb.6c04d8",
+    "type": "function",
+    "name": "create location message",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "ffa12f5d.bd848",
+    "type": "inject",
+    "name": "ping",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "source"
+  },
+  {
+    "id": "691d6cd0.92bed4",
+    "type": "function",
+    "name": "send to specific chat",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "b2ae0413.81d0b8",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "debug"
+  },
+  {
+    "id": "eeb75e4.7d155a",
+    "type": "http in",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "network"
+  },
+  {
+    "id": "dec4e037.136e4",
+    "type": "api-call-service",
+    "name": "Turn off tv",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "7f4af5e3.eebb4c",
+    "type": "api-call-service",
+    "name": "Turn off tv backlight",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "5a053e2b.8d63a",
+    "type": "api-call-service",
+    "name": "Turn off passage light",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "1211cca5.158183",
+    "type": "api-call-service",
+    "name": "Turn off garage light",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "ebb475f7.5d1c48",
+    "type": "api-call-service",
+    "name": "Turn off kitchen light",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "2593d799.9b3198",
+    "type": "http in",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "network"
+  },
+  {
+    "id": "a6c523f.1f5b7e",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "debug"
+  },
+  {
+    "id": "256d60a2.add93",
+    "type": "api-call-service",
+    "name": "Play White Noise",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "4d8651c9.607c",
+    "type": "inject",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "source"
+  },
+  {
+    "id": "66cb2a1a.1bf084",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "e3e9fa68.7475a8",
+    "type": "subflow:4240a48.827625c",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "ad5d67fe.4d8bf8",
+    "type": "inject",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "source"
+  },
+  {
+    "id": "acb86942.5e9eb8",
+    "type": "http in",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "network"
+  },
+  {
+    "id": "37f2819d.fa849e",
+    "type": "http response",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "network"
+  },
+  {
+    "id": "10913c8a.15aac3",
+    "type": "subflow:5b7e0e31.905c",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "17bd4566.e842bb",
+    "type": "influxdb out",
+    "name": "test",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "be93bfeb.416c4",
+    "type": "function",
+    "name": "single value",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "31f9f174.ce060e",
+    "type": "inject",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "source"
+  },
+  {
+    "id": "3a2c5365.aeac1c",
+    "type": "change",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "ec7432bc.138bd",
+    "type": "telegram sender",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "574090c4.c583e",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "debug"
+  },
+  {
+    "id": "d69380f4.8f204",
+    "type": "function",
+    "name": "create response",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "c9c5ff32.8db61",
+    "type": "telegram sender",
+    "name": "sender",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "44bd3c3f.c0a614",
+    "type": "inject",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "source"
+  },
+  {
+    "id": "a293fe2.aa058",
+    "type": "function",
+    "name": "create keyboard message",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "7654a517.757b84",
+    "type": "telegram event",
+    "name": "live location receiver",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "365556c8.2d4362",
+    "type": "function",
+    "name": "create location message",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "7ad6eda4.6764a4",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "debug"
+  },
+  {
+    "id": "faa566a24f4711c1",
+    "type": "server-events",
+    "name": "NZB",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "9810e0cb2db9d308",
+    "type": "function",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "10d9c5fae0f5aef5",
+    "type": "telegram sender",
+    "name": "sender",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "a28830019c0b2309",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "debug"
+  },
+  {
+    "id": "8b9c15ef66423866",
+    "type": "http in",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "network"
+  },
+  {
+    "id": "6eb17bf3fabc3455",
+    "type": "http response",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "network"
+  },
+  {
+    "id": "b719c22983f396cb",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "debug"
+  },
+  {
+    "id": "2f1e920bb93fff43",
+    "type": "file",
+    "name": "track-eskom",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "storage"
+  },
+  {
+    "id": "649c05fa8087d831",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "b0c9753e91b45340",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "bb20a3d78ca5b523",
+    "type": "change",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "fa595e080bc14e66",
+    "type": "http request",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "network"
+  },
+  {
+    "id": "7b8c41f30867c9a7",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "debug"
+  },
+  {
+    "id": "10e2633f8213fd21",
+    "type": "change",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "e20d0ad172ff2cc8",
+    "type": "http request",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "network"
+  },
+  {
+    "id": "628bf481ec20156a",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "debug"
+  },
+  {
+    "id": "422f37fd2f94ab57",
+    "type": "switch",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "483a164419bd5453",
+    "type": "function",
+    "name": "create keyboard message",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "6532a10d7f342e9b",
+    "type": "telegram sender",
+    "name": "sender",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "85d9f56e1238d5f3",
+    "type": "telegram receiver",
+    "name": "receiver",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "030f71b1e0fd9791",
+    "type": "function",
+    "name": "create response",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "93f33ed58f3fc7a8",
+    "type": "inject",
+    "name": "payload.title",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "source"
+  },
+  {
+    "id": "f9b7bd691a25c977",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "debug"
+  },
+  {
+    "id": "a9daed9dd4a9f186",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "debug"
+  },
+  {
+    "id": "d4e083281e7eeaee",
+    "type": "delay",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "f7b9b95a2c6c8a5c",
+    "type": "change",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "8e57fac58b919124",
+    "type": "server-state-changed",
+    "name": "Beast server",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "c76e5983c9e2c2b2",
+    "type": "function",
+    "name": "create keyboard message",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "78cd6245aface402",
+    "type": "function",
+    "name": "create keyboard message",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "64ca2c79cfe8b6f0",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "6c4bc14bba998fd7",
+    "type": "function",
+    "name": "create keyboard message",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "2ba2be1053603466",
+    "type": "telegram sender",
+    "name": "sender",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "9b945d480bad672c",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "debug"
+  },
+  {
+    "id": "916dfcdc9dbef14a",
+    "type": "function",
+    "name": "create keyboard message",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "21083e5e3692c35b",
+    "type": "telegram sender",
+    "name": "sender",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "9c8a3b53f9a4d3f1",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "debug"
+  },
+  {
+    "id": "70d693cefd36d2f4",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "e5daf869349c15da",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "bd2a44fb60fe2031",
+    "type": "delay",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "82ba1b50806425d3",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "e54af46b57118635",
+    "type": "inject",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "source"
+  },
+  {
+    "id": "2c1a4be96d1b86d1",
+    "type": "throttle",
+    "name": "",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "other"
+  },
+  {
+    "id": "7d81e9f5b79ee2e1",
+    "type": "server-state-changed",
+    "name": "Beast server power down automation",
+    "flowId": "7e2e372a.f3aad8",
+    "flowLabel": "Bot",
+    "category": "transform"
+  },
+  {
+    "id": "661ed2d1.c87e9c",
+    "type": "http in",
+    "name": "",
+    "flowId": "951c4be0.f3b908",
+    "flowLabel": "call-to-action",
+    "category": "network"
+  },
+  {
+    "id": "583fbfb0.05f53",
+    "type": "debug",
+    "name": "",
+    "flowId": "951c4be0.f3b908",
+    "flowLabel": "call-to-action",
+    "category": "debug"
+  },
+  {
+    "id": "83444f7b.4735b",
+    "type": "http response",
+    "name": "",
+    "flowId": "951c4be0.f3b908",
+    "flowLabel": "call-to-action",
+    "category": "network"
+  },
+  {
+    "id": "241e21ff.a75b3e",
+    "type": "json",
+    "name": "",
+    "flowId": "951c4be0.f3b908",
+    "flowLabel": "call-to-action",
+    "category": "other"
+  },
+  {
+    "id": "f19fb0ad.997b6",
+    "type": "debug",
+    "name": "",
+    "flowId": "951c4be0.f3b908",
+    "flowLabel": "call-to-action",
+    "category": "debug"
+  },
+  {
+    "id": "63471962.3de4b8",
+    "type": "switch",
+    "name": "",
+    "flowId": "951c4be0.f3b908",
+    "flowLabel": "call-to-action",
+    "category": "transform"
+  },
+  {
+    "id": "69e06fe4.be682",
+    "type": "link out",
+    "name": "StartCleaning",
+    "flowId": "951c4be0.f3b908",
+    "flowLabel": "call-to-action",
+    "category": "source"
+  },
+  {
+    "id": "bf776cf5.b29e2",
+    "type": "http in",
+    "name": "",
+    "flowId": "951c4be0.f3b908",
+    "flowLabel": "call-to-action",
+    "category": "network"
+  },
+  {
+    "id": "6c1c6d9d.f22b04",
+    "type": "api-call-service",
+    "name": "Garage door left",
+    "flowId": "951c4be0.f3b908",
+    "flowLabel": "call-to-action",
+    "category": "other"
+  },
+  {
+    "id": "91eed7e4.6fe7b8",
+    "type": "api-call-service",
+    "name": "Garage door Right",
+    "flowId": "951c4be0.f3b908",
+    "flowLabel": "call-to-action",
+    "category": "other"
+  },
+  {
+    "id": "d576a945.ae6c28",
+    "type": "delay",
+    "name": "",
+    "flowId": "951c4be0.f3b908",
+    "flowLabel": "call-to-action",
+    "category": "other"
+  },
+  {
+    "id": "1ac4d50b.90459b",
+    "type": "api-call-service",
+    "name": "Garage door left",
+    "flowId": "951c4be0.f3b908",
+    "flowLabel": "call-to-action",
+    "category": "other"
+  },
+  {
+    "id": "3a2a170d.3070e8",
+    "type": "api-call-service",
+    "name": "Garage door Right",
+    "flowId": "951c4be0.f3b908",
+    "flowLabel": "call-to-action",
+    "category": "other"
+  },
+  {
+    "id": "4d3c3567.35fe6c",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "transform"
+  },
+  {
+    "id": "2d04669e.f97cda",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "fe21493c.343458",
+    "type": "delay",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "996bc695.039568",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "4a82645c.472e7c",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "5e0fd51c.6e2c8c",
+    "type": "delay",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "cc9143b0.6d6",
+    "type": "api-call-service",
+    "name": "Turn on cabinet light",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "fc5364dd.9f22a8",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "44781cea.2fcf94",
+    "type": "delay",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "a947366.741a2c8",
+    "type": "api-call-service",
+    "name": "Turn on cabinet light",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "526f4c39.b39a34",
+    "type": "time-range-switch",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "transform"
+  },
+  {
+    "id": "66cbe47c.fb22ac",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "transform"
+  },
+  {
+    "id": "61e4feab.1eb44",
+    "type": "api-call-service",
+    "name": "Turn off counter light",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "95122b24.e552c8",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "df472057.83d7e",
+    "type": "delay",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "4e8e6c0a.67f654",
+    "type": "api-call-service",
+    "name": "Turn on counter light",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "cb132eb5.e941",
+    "type": "time-range-switch",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "transform"
+  },
+  {
+    "id": "7bf69dfd.5b44d4",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "transform"
+  },
+  {
+    "id": "809ec661.75bbb8",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "e7510c38.8b035",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "transform"
+  },
+  {
+    "id": "953bf6f4.81bce8",
+    "type": "api-call-service",
+    "name": "Turn off passage light",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "32ffaf0b.f8159",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "578cd46.7415d2c",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "4bee8ef9.88005",
+    "type": "delay",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "4f123c03.b99f84",
+    "type": "api-call-service",
+    "name": "Turn on passage light",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "8e98fd15.3a02",
+    "type": "time-range-switch",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "transform"
+  },
+  {
+    "id": "7c72d77c.747a38",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "transform"
+  },
+  {
+    "id": "225f73a2.47e1cc",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "transform"
+  },
+  {
+    "id": "6dcc2921.9be108",
+    "type": "inject",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "source"
+  },
+  {
+    "id": "f74a5b62.671958",
+    "type": "inject",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "source"
+  },
+  {
+    "id": "17fd86ae.666429",
+    "type": "delay",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "a886f191.58ca9",
+    "type": "delay",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "f9b6d39b.f8bda",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "317e1c49.fbeb44",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "24a1e08b.89dc7",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "741f8ea5.9c7d1",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "cb6118ff.8c51b8",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "83d05247.fcdd6",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "d34da88f.45d5c8",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "bcaaa507.fb85b8",
+    "type": "inject",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "source"
+  },
+  {
+    "id": "732e2c83.8647e4",
+    "type": "delay",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "c8731e10.276d8",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "48a083e8.b3395c",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "5c3535ba.719b1c",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "c1cfca6.02e9938",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "536342d5.902d8c",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "3c3dc73c699d322f",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "transform"
+  },
+  {
+    "id": "e45f9d2d4fb1a427",
+    "type": "api-call-service",
+    "name": "Turn on backyard light",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "e3fb4cd8eb59b66b",
+    "type": "api-call-service",
+    "name": "Turn off backyard light",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "222ac6d61b9b997e",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "transform"
+  },
+  {
+    "id": "333cc89d20acaa5f",
+    "type": "api-call-service",
+    "name": "Turn on backyard light",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "933ec9ef3887e344",
+    "type": "api-call-service",
+    "name": "Turn off backyard light",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "f018d2f2bb690936",
+    "type": "debug",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "debug"
+  },
+  {
+    "id": "b7a374ca012908d4",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "transform"
+  },
+  {
+    "id": "156ad641.9e35ea",
+    "type": "function",
+    "name": "Set brightness in payload",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "transform"
+  },
+  {
+    "id": "9248a42ea34d169a",
+    "type": "api-call-service",
+    "name": "Turn on bathroom light",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "464abbdbe70a4c74",
+    "type": "inject",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "source"
+  },
+  {
+    "id": "01549b497dc0d922",
+    "type": "api-call-service",
+    "name": "Turn off bathroom light",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "other"
+  },
+  {
+    "id": "cf35278d4332c6ea",
+    "type": "time-range-switch",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "transform"
+  },
+  {
+    "id": "6f2dff0cb42595be",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "transform"
+  },
+  {
+    "id": "b582bec0509340e7",
+    "type": "inject",
+    "name": "",
+    "flowId": "f63f23c3.d8937",
+    "flowLabel": "Lights Automation",
+    "category": "source"
+  },
+  {
+    "id": "3ea442c.10162be",
+    "type": "function",
+    "name": "",
+    "flowId": "6c7c93e4.e6381c",
+    "flowLabel": "vacuum",
+    "category": "transform"
+  },
+  {
+    "id": "c3f165a.d7b4798",
+    "type": "function",
+    "name": "Build room list",
+    "flowId": "6c7c93e4.e6381c",
+    "flowLabel": "vacuum",
+    "category": "transform"
+  },
+  {
+    "id": "27e64cb6.adfe44",
+    "type": "debug",
+    "name": "",
+    "flowId": "6c7c93e4.e6381c",
+    "flowLabel": "vacuum",
+    "category": "debug"
+  },
+  {
+    "id": "f7cbfc2c.24f1b",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "6c7c93e4.e6381c",
+    "flowLabel": "vacuum",
+    "category": "other"
+  },
+  {
+    "id": "476e249a.e26adc",
+    "type": "catch",
+    "name": "",
+    "flowId": "6c7c93e4.e6381c",
+    "flowLabel": "vacuum",
+    "category": "source"
+  },
+  {
+    "id": "f9aa6dc5.31e92",
+    "type": "debug",
+    "name": "",
+    "flowId": "6c7c93e4.e6381c",
+    "flowLabel": "vacuum",
+    "category": "debug"
+  },
+  {
+    "id": "f5cd96a6.fbbfe8",
+    "type": "link in",
+    "name": "",
+    "flowId": "6c7c93e4.e6381c",
+    "flowLabel": "vacuum",
+    "category": "source"
+  },
+  {
+    "id": "bcbca37f.9b61b",
+    "type": "inject",
+    "name": "",
+    "flowId": "6c7c93e4.e6381c",
+    "flowLabel": "vacuum",
+    "category": "source"
+  },
+  {
+    "id": "a0616daaa984ae9d",
+    "type": "debug",
+    "name": "",
+    "flowId": "6c7c93e4.e6381c",
+    "flowLabel": "vacuum",
+    "category": "debug"
+  },
+  {
+    "id": "d380e905.9b4bf8",
+    "type": "mqtt in",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "messaging"
+  },
+  {
+    "id": "f967110c.052f4",
+    "type": "comment",
+    "name": "Aqara universal remote",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "51c4f2f6.f47a6c",
+    "type": "switch",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "transform"
+  },
+  {
+    "id": "141ed37a.66aaad",
+    "type": "api-call-service",
+    "name": "Counter lights",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "9c863bb3.1beb68",
+    "type": "api-call-service",
+    "name": "Cabinet lights",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "7f305fef.d2b63",
+    "type": "switch",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "transform"
+  },
+  {
+    "id": "390e33b6.373e1c",
+    "type": "api-call-service",
+    "name": "Main bedroom lights",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "234129a3.649796",
+    "type": "api-call-service",
+    "name": "Main bedroom mood rock",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "54bd1d2b.d106a4",
+    "type": "comment",
+    "name": "Bedside remote",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "84ebf9e6.ab0108",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "731a5547.2698ac",
+    "type": "api-call-service",
+    "name": "Counter lights",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "101de3d0.c84b2c",
+    "type": "api-current-state",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "8d4a15dd.0ddb88",
+    "type": "api-call-service",
+    "name": "Cabinet lights",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "d866fa8a.8a1d28",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "transform"
+  },
+  {
+    "id": "b74fb7c5.0f94a8",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "transform"
+  },
+  {
+    "id": "802b01de.84cb5",
+    "type": "api-call-service",
+    "name": "Toggle TV",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "70cc268f.e049d8",
+    "type": "switch",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "transform"
+  },
+  {
+    "id": "c958a473.b69de8",
+    "type": "api-call-service",
+    "name": "Toggle kitchen_cabinet_lights",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "669a09e9.f8a498",
+    "type": "comment",
+    "name": "Kitchen remote",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "5abd64cf.39529c",
+    "type": "server-state-changed",
+    "name": "Kitchen button",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "transform"
+  },
+  {
+    "id": "3d7a825b.9a833e",
+    "type": "api-call-service",
+    "name": "toggle counter_light",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "bf8aa328a5f857c4",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "debug"
+  },
+  {
+    "id": "d93370b7c56a900f",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "debug"
+  },
+  {
+    "id": "c257ac80ee1bab1f",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "debug"
+  },
+  {
+    "id": "40ae7ba764f71724",
+    "type": "mqtt in",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "messaging"
+  },
+  {
+    "id": "b3a7c08e6fb769f4",
+    "type": "comment",
+    "name": "Aqara universal remote two",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "a40388a4565e3229",
+    "type": "switch",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "transform"
+  },
+  {
+    "id": "bf58d618a473afe2",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "c34450f599d06d00",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "7a49baa518197069",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "90f5d5a67a61325a",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "debug"
+  },
+  {
+    "id": "93d925bcb7256efe",
+    "type": "inject",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "source"
+  },
+  {
+    "id": "9345f8321738f279",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "debug"
+  },
+  {
+    "id": "1e9a7f7f0663795b",
+    "type": "server-state-changed",
+    "name": "Main bedroom bathroom button",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "transform"
+  },
+  {
+    "id": "968ac7446688c79e",
+    "type": "switch",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "transform"
+  },
+  {
+    "id": "1db0ee8310d4c0d2",
+    "type": "api-call-service",
+    "name": "Main bedroom lights",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "4a10220c225a6568",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "transform"
+  },
+  {
+    "id": "66f7af351be60c30",
+    "type": "debug",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "debug"
+  },
+  {
+    "id": "64ac49b9305b48af",
+    "type": "switch",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "transform"
+  },
+  {
+    "id": "f87bf3c48ac0a47a",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "5ff05ac2ac98055d",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "dcf2e96e1aff8c9c",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "2ec9d7e3c8664c1d",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "transform"
+  },
+  {
+    "id": "3d37127a0533901b",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "5e8da5259c7e6d2e",
+    "type": "server-state-changed",
+    "name": "Main bedroom bathroom button",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "transform"
+  },
+  {
+    "id": "1f6e0c6893b179e8",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "1f19ca3a77bf7c1e",
+    "type": "server-state-changed",
+    "name": "Main bedroom bathroom button",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "transform"
+  },
+  {
+    "id": "d44444922744f72b",
+    "type": "function",
+    "name": "Create message",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "transform"
+  },
+  {
+    "id": "a31f73fbd70280bb",
+    "type": "api-call-service",
+    "name": "Notify Jason",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "0b0d436608153451",
+    "type": "api-call-service",
+    "name": "Notify Jason",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "other"
+  },
+  {
+    "id": "aff5b3680a4a06be",
+    "type": "inject",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "source"
+  },
+  {
+    "id": "db92ecfce321d55b",
+    "type": "inject",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "source"
+  },
+  {
+    "id": "11a9caa64d69dacf",
+    "type": "debug",
+    "name": "debug 5",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "debug"
+  },
+  {
+    "id": "64400cd24fa815da",
+    "type": "debug",
+    "name": "debug 6",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "debug"
+  },
+  {
+    "id": "a87736a83daff236",
+    "type": "mqtt in",
+    "name": "",
+    "flowId": "7e4d8079.492fd",
+    "flowLabel": "Zigbee buttons",
+    "category": "messaging"
+  },
+  {
+    "id": "581acb2a.792564",
+    "type": "subflow:6dc0247c.d7210c",
+    "name": "",
+    "flowId": "d7d550bb.1492f",
+    "flowLabel": "Flow 1",
+    "category": "other"
+  },
+  {
+    "id": "aa8e9e73.4957f",
+    "type": "inject",
+    "name": "",
+    "flowId": "d7d550bb.1492f",
+    "flowLabel": "Flow 1",
+    "category": "source"
+  },
+  {
+    "id": "d2b46240.6de89",
+    "type": "debug",
+    "name": "action1",
+    "flowId": "d7d550bb.1492f",
+    "flowLabel": "Flow 1",
+    "category": "debug"
+  },
+  {
+    "id": "a63fb7bc.64af88",
+    "type": "debug",
+    "name": "action2",
+    "flowId": "d7d550bb.1492f",
+    "flowLabel": "Flow 1",
+    "category": "debug"
+  },
+  {
+    "id": "2f4904b8.568d3c",
+    "type": "debug",
+    "name": "action3",
+    "flowId": "d7d550bb.1492f",
+    "flowLabel": "Flow 1",
+    "category": "debug"
+  },
+  {
+    "id": "75334c15.956694",
+    "type": "debug",
+    "name": "cleared",
+    "flowId": "d7d550bb.1492f",
+    "flowLabel": "Flow 1",
+    "category": "debug"
+  },
+  {
+    "id": "81797230.4299e",
+    "type": "inject",
+    "name": "clear_notification",
+    "flowId": "d7d550bb.1492f",
+    "flowLabel": "Flow 1",
+    "category": "source"
+  },
+  {
+    "id": "75668745.ca7328",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "9bb254b9.4ad798",
+    "flowLabel": "camers",
+    "category": "transform"
+  },
+  {
+    "id": "1be42fe4.e78b",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "9bb254b9.4ad798",
+    "flowLabel": "camers",
+    "category": "other"
+  },
+  {
+    "id": "da673adc.4774e8",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "9bb254b9.4ad798",
+    "flowLabel": "camers",
+    "category": "other"
+  },
+  {
+    "id": "5559825c.cca9bc",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "9bb254b9.4ad798",
+    "flowLabel": "camers",
+    "category": "other"
+  },
+  {
+    "id": "d2dfd346.e0baf",
+    "type": "delay",
+    "name": "",
+    "flowId": "9bb254b9.4ad798",
+    "flowLabel": "camers",
+    "category": "other"
+  },
+  {
+    "id": "72fced1b.147994",
+    "type": "inject",
+    "name": "",
+    "flowId": "9bb254b9.4ad798",
+    "flowLabel": "camers",
+    "category": "source"
+  },
+  {
+    "id": "901b5895.327728",
+    "type": "inject",
+    "name": "",
+    "flowId": "9bb254b9.4ad798",
+    "flowLabel": "camers",
+    "category": "source"
+  },
+  {
+    "id": "da5bca72.a8ae88",
+    "type": "inject",
+    "name": "",
+    "flowId": "c7fa6c57.aa19e",
+    "flowLabel": "Dev",
+    "category": "source"
+  },
+  {
+    "id": "736b0172.0c043",
+    "type": "function",
+    "name": "prep msg",
+    "flowId": "c7fa6c57.aa19e",
+    "flowLabel": "Dev",
+    "category": "transform"
+  },
+  {
+    "id": "83cb3705.7adc08",
+    "type": "api-call-service",
+    "name": "",
+    "flowId": "c7fa6c57.aa19e",
+    "flowLabel": "Dev",
+    "category": "other"
+  },
+  {
+    "id": "1b7063f9.8a2adc",
+    "type": "debug",
+    "name": "",
+    "flowId": "c7fa6c57.aa19e",
+    "flowLabel": "Dev",
+    "category": "debug"
+  },
+  {
+    "id": "97a8976b.c3a998",
+    "type": "telegram sender",
+    "name": "",
+    "flowId": "c7fa6c57.aa19e",
+    "flowLabel": "Dev",
+    "category": "other"
+  },
+  {
+    "id": "be3d928a.a645e",
+    "type": "debug",
+    "name": "",
+    "flowId": "c7fa6c57.aa19e",
+    "flowLabel": "Dev",
+    "category": "debug"
+  },
+  {
+    "id": "1949e620.2518da",
+    "type": "file in",
+    "name": "",
+    "flowId": "c7fa6c57.aa19e",
+    "flowLabel": "Dev",
+    "category": "storage"
+  },
+  {
+    "id": "f80ed6b2.993608",
+    "type": "inject",
+    "name": "",
+    "flowId": "c7fa6c57.aa19e",
+    "flowLabel": "Dev",
+    "category": "source"
+  },
+  {
+    "id": "332e2ef955bf835b",
+    "type": "inject",
+    "name": "",
+    "flowId": "c7fa6c57.aa19e",
+    "flowLabel": "Dev",
+    "category": "source"
+  },
+  {
+    "id": "816bea99f98bbb83",
+    "type": "castv2-sender",
+    "name": "bedroomtv",
+    "flowId": "c7fa6c57.aa19e",
+    "flowLabel": "Dev",
+    "category": "other"
+  },
+  {
+    "id": "8c76787f322ccac9",
+    "type": "function",
+    "name": "",
+    "flowId": "c7fa6c57.aa19e",
+    "flowLabel": "Dev",
+    "category": "transform"
+  },
+  {
+    "id": "725318ed22530abe",
+    "type": "cast-to-client",
+    "name": "",
+    "flowId": "c7fa6c57.aa19e",
+    "flowLabel": "Dev",
+    "category": "other"
+  },
+  {
+    "id": "a21f1807.41d7f8",
+    "type": "cast-to-client",
+    "name": "",
+    "flowId": "c7fa6c57.aa19e",
+    "flowLabel": "Dev",
+    "category": "other"
+  },
+  {
+    "id": "74313baf.f282f4",
+    "type": "inject",
+    "name": "",
+    "flowId": "c7fa6c57.aa19e",
+    "flowLabel": "Dev",
+    "category": "source"
+  },
+  {
+    "id": "53d91dd8.67b924",
+    "type": "change",
+    "name": "",
+    "flowId": "c7fa6c57.aa19e",
+    "flowLabel": "Dev",
+    "category": "transform"
+  },
+  {
+    "id": "fba1eb3.2515918",
+    "type": "debug",
+    "name": "",
+    "flowId": "c7fa6c57.aa19e",
+    "flowLabel": "Dev",
+    "category": "debug"
+  },
+  {
+    "id": "9ef34079.24061",
+    "type": "comment",
+    "name": "stream a url",
+    "flowId": "c7fa6c57.aa19e",
+    "flowLabel": "Dev",
+    "category": "other"
+  },
+  {
+    "id": "83ed55a1bb8e158a",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "157e0607d792f973",
+    "flowLabel": "3D printing",
+    "category": "transform"
+  },
+  {
+    "id": "74bfa5cf85aa7a89",
+    "type": "telegram sender",
+    "name": "sender",
+    "flowId": "157e0607d792f973",
+    "flowLabel": "3D printing",
+    "category": "other"
+  },
+  {
+    "id": "5ae5bc69167c2f32",
+    "type": "function",
+    "name": "create keyboard message",
+    "flowId": "157e0607d792f973",
+    "flowLabel": "3D printing",
+    "category": "transform"
+  },
+  {
+    "id": "03901494a623ec44",
+    "type": "debug",
+    "name": "",
+    "flowId": "157e0607d792f973",
+    "flowLabel": "3D printing",
+    "category": "debug"
+  },
+  {
+    "id": "8d3d877eddd8a240",
+    "type": "debug",
+    "name": "",
+    "flowId": "157e0607d792f973",
+    "flowLabel": "3D printing",
+    "category": "debug"
+  },
+  {
+    "id": "942f8266cbcd0b0a",
+    "type": "api-call-service",
+    "name": "main fridge",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "other"
+  },
+  {
+    "id": "298afbd5b320e7e6",
+    "type": "api-call-service",
+    "name": "bar fridge",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "other"
+  },
+  {
+    "id": "bcbffc76c9f94c93",
+    "type": "api-call-service",
+    "name": "main fridge",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "other"
+  },
+  {
+    "id": "d6c2cb7178433d56",
+    "type": "api-call-service",
+    "name": "bar fridge",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "other"
+  },
+  {
+    "id": "5683b496b6c20edf",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "transform"
+  },
+  {
+    "id": "7a1a6ab75c2f7f33",
+    "type": "change",
+    "name": "",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "transform"
+  },
+  {
+    "id": "b0b66f545991e8cf",
+    "type": "change",
+    "name": "",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "transform"
+  },
+  {
+    "id": "3d818408efd22ef4",
+    "type": "api-call-service",
+    "name": "Broadcast",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "other"
+  },
+  {
+    "id": "5791716461d3fbc1",
+    "type": "inject",
+    "name": "",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "source"
+  },
+  {
+    "id": "b5f3f1d8c60f6730",
+    "type": "time-range-switch",
+    "name": "",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "transform"
+  },
+  {
+    "id": "e6b9a66b0eb5e449",
+    "type": "server-state-changed",
+    "name": "",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "transform"
+  },
+  {
+    "id": "b7dc67051ef9f3d5",
+    "type": "telegram sender",
+    "name": "sender",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "other"
+  },
+  {
+    "id": "0ccbb959e9ca2627",
+    "type": "function",
+    "name": "create keyboard message",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "transform"
+  },
+  {
+    "id": "55279139503401bb",
+    "type": "time-range-switch",
+    "name": "",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "transform"
+  },
+  {
+    "id": "45f99d1cbb752483",
+    "type": "change",
+    "name": "",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "transform"
+  },
+  {
+    "id": "335ef94d40821562",
+    "type": "api-call-service",
+    "name": "Broadcast",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "other"
+  },
+  {
+    "id": "6a32f08ef7827573",
+    "type": "delay",
+    "name": "",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "other"
+  },
+  {
+    "id": "df7093a00e7e44a5",
+    "type": "time-range-switch",
+    "name": "",
+    "flowId": "a19fc3ceafc0fbbb",
+    "flowLabel": "Inverter",
+    "category": "transform"
+  },
+  {
+    "id": "67c650540c63b959",
+    "type": "ha-webhook",
+    "name": "",
+    "flowId": "acc596323ab3255c",
+    "flowLabel": "Flow 2",
+    "category": "other"
+  },
+  {
+    "id": "d634f0d40490b7d7",
+    "type": "debug",
+    "name": "debug 3",
+    "flowId": "acc596323ab3255c",
+    "flowLabel": "Flow 2",
+    "category": "debug"
+  },
+  {
+    "id": "1f2e10eb53060327",
+    "type": "inject",
+    "name": "",
+    "flowId": "acc596323ab3255c",
+    "flowLabel": "Flow 2",
+    "category": "source"
+  },
+  {
+    "id": "72c00e1e2542cb2a",
+    "type": "debug",
+    "name": "debug 4",
+    "flowId": "acc596323ab3255c",
+    "flowLabel": "Flow 2",
+    "category": "debug"
+  }
+]
